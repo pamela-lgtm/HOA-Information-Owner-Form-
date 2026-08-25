@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOA Information — What We Need Before We Market Your Property | Verandah Properties</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0;
+    background-color: #F5F4F1;
+    font-family: 'Jost', 'Helvetica Neue', Arial, sans-serif;
+    color: #2A2A2A;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.65;
+  }
+  .page { max-width: 920px; margin: 0 auto; background: #FFFFFF; }
+  .topbar { height: 7px; background: #008C82; }
+
+  header { padding: 48px 54px 36px; border-bottom: 1px solid #ECEAE5; }
+  .eyebrow { font-size: 11px; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: #C9A227; margin: 0 0 13px; }
+  h1 { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 44px; font-weight: 600; line-height: 1.08; margin: 0; color: #1A1A1A; }
+  .sub { font-size: 16.5px; font-weight: 300; color: #5A5A5A; margin: 14px 0 0; max-width: 660px; }
+
+  section { padding: 0 54px; }
+  h2 { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 30px; font-weight: 600; color: #008C82; margin: 46px 0 8px; line-height: 1.2; }
+  h3 { font-family: 'Jost', sans-serif; font-size: 15px; font-weight: 600; letter-spacing: .03em; color: #1A1A1A; margin: 28px 0 10px; }
+  p { font-size: 16px; font-weight: 300; margin: 0 0 17px; }
+  strong { font-weight: 500; color: #1A1A1A; }
+
+  ul { margin: 0 0 20px; padding-left: 0; list-style: none; }
+  li { font-size: 16px; font-weight: 300; margin-bottom: 12px; padding-left: 23px; position: relative; }
+  li:before { content: ""; position: absolute; left: 0; top: 11px; width: 6px; height: 6px; border-radius: 50%; background: #008C82; }
+
+  .lead-box {
+    background: #1A1A1A; color: #FFF;
+    padding: 34px 54px 38px;
+  }
+  .lead-box p { color: rgba(255,255,255,.88); font-size: 16.5px; margin-bottom: 14px; }
+  .lead-box p:last-child { margin-bottom: 0; }
+  .lead-box strong { color: #FFF; font-weight: 500; }
+  .lead-box .label { font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: #C9A227; margin: 0 0 18px; }
+
+  .callout { border-left: 3px solid #C9A227; background: #FBF9F4; border-radius: 0 10px 10px 0; padding: 22px 26px; margin: 26px 0; }
+  .callout p:last-child { margin-bottom: 0; }
+  .callout .h { font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: #C9A227; margin: 0 0 11px; font-weight: 500; }
+
+  .teal-box { background: #F2F8F7; border: 1px solid #DCEAE8; border-radius: 12px; padding: 26px 28px; margin: 26px 0; }
+  .teal-box p:last-child { margin-bottom: 0; }
+  .teal-box h3 { margin-top: 0; }
+
+  /* checklist grid */
+  .checklist { display: flex; flex-wrap: wrap; gap: 16px; margin: 24px 0 8px; }
+  .check-item { flex: 1 1 260px; background: #FBFAF8; border: 1px solid #ECEAE5; border-radius: 12px; padding: 20px 22px; }
+  .check-item h4 { font-family: 'Jost', sans-serif; font-size: 14.5px; font-weight: 600; color: #1A1A1A; margin: 0 0 7px; }
+  .check-item p { font-size: 14px; margin: 0; color: #5A5A5A; }
+
+  /* sequence */
+  .seq { counter-reset: s; margin: 26px 0; }
+  .seq-step { position: relative; padding-left: 50px; margin-bottom: 20px; }
+  .seq-step:before { counter-increment: s; content: counter(s); position: absolute; left: 0; top: 0; width: 32px; height: 32px; border-radius: 50%; background: #F0EEE9; color: #1A1A1A; font-size: 14px; font-weight: 500; display: flex; align-items: center; justify-content: center; }
+  .seq-step.bad:before { background: #8C2020; color: #FFF; }
+  .seq-step p { margin: 4px 0 0; font-size: 15.5px; }
+  .seq-step .t { font-weight: 500; color: #1A1A1A; font-size: 15.5px; }
+
+  /* form section */
+  .form-section { background: #FBF9F4; border-top: 1px solid #ECEAE5; margin-top: 46px; padding: 44px 54px 50px; }
+  .form-section h2 { margin-top: 0; }
+  .form-wrap { background: #FFF; border: 1px solid #ECEAE5; border-radius: 14px; padding: 10px; margin-top: 24px; }
+  .form-wrap iframe { width: 100%; border: none; min-height: 900px; display: block; border-radius: 10px; }
+
+  footer { background: #1A1A1A; padding: 36px 54px; text-align: center; margin-top: 0; }
+  footer .tag { font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: #C9A227; margin: 0; }
+  footer .co { font-size: 12.5px; letter-spacing: .1em; color: #FFF; margin: 10px 0 0; }
+  footer .disc { font-size: 11px; font-weight: 300; color: rgba(255,255,255,.5); margin: 18px auto 0; max-width: 640px; line-height: 1.6; }
+
+  @media only screen and (max-width: 700px) {
+    header, section, .lead-box, .form-section, footer { padding-left: 24px; padding-right: 24px; }
+    h1 { font-size: 32px; }
+    h2 { font-size: 25px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="topbar"></div>
+
+  <header>
+    <p class="eyebrow">Onboarding &middot; Required Before Marketing</p>
+    <h1>Your HOA Information</h1>
+    <p class="sub">What we need from you before your property goes to market, why it has to come from you, and what happens when it doesn't.</p>
+  </header>
+
+  <div class="lead-box">
+    <p class="label">The short version</p>
+    <p>Your association's leasing rules govern your property whether or not anyone has read them. If we market and lease your property without knowing those rules, the association can block your resident's move-in, fine you, and pursue legal action &mdash; and those consequences attach to you and to the property, not to us.</p>
+    <p><strong>Please gather and send your HOA documents now, then complete the short acknowledgment at the bottom of this page.</strong> We cannot begin marketing until we have it.</p>
+  </div>
+
+  <section>
+    <h2>Why this matters</h2>
+    <p>Our shared goal is to market your investment promptly and keep vacancy as short as possible. Everything we do is built around that. This is the one place where moving fast without the right information costs far more than it saves.</p>
+
+    <p>Every homeowners association, condominium association and master association has its own leasing requirements. Those commonly include an application the resident must submit, an approval period that can run weeks, application and transfer fees, caps or waiting periods on the number of leased units, minimum lease terms, rules governing pets, vehicles and occupancy, and &mdash; critically &mdash; <strong>a prohibition on any resident occupying the property before written association approval.</strong></p>
+
+    <p>As the property owner and a member of the association, you and the property itself are legally subject to those rules. The association may impose fines, restrict occupancy, place a lien against the property, or pursue legal action for noncompliance. Because those consequences ultimately attach to you as the owner and to your property, <strong>obtaining and providing complete, current HOA information is your responsibility.</strong></p>
+
+    <div class="callout">
+      <p class="h">Why we can't simply get it for you</p>
+      <p>We will always make reasonable efforts to help, and often we succeed. But associations frequently do not respond to property managers, because we are neither the owner nor a member and they have no obligation to us. You are the member. A request from you carries weight that the same request from us does not.</p>
+      <p>Our assistance does not transfer your responsibility to Verandah. When we help, we are helping &mdash; not assuming the obligation.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>What we need</h2>
+    <p>Send us everything you have. If you are missing something, tell us what is missing rather than leaving a gap we don't know about.</p>
+
+    <div class="checklist">
+      <div class="check-item">
+        <h4>Leasing rules and restrictions</h4>
+        <p>Any cap on leased units, waiting period after purchase, minimum lease term, or restriction on leasing at all.</p>
+      </div>
+      <div class="check-item">
+        <h4>Tenant application requirements</h4>
+        <p>The application form itself, where it is submitted, what the association requires with it, and how long approval takes.</p>
+      </div>
+      <div class="check-item">
+        <h4>All fees</h4>
+        <p>Application fees, transfer fees, capital contributions, amenity or key-fob fees, vehicle decals &mdash; and who pays each one.</p>
+      </div>
+      <div class="check-item">
+        <h4>Occupancy rules</h4>
+        <p>Whether written approval is required before move-in, occupancy limits, and any background or screening the association performs itself.</p>
+      </div>
+      <div class="check-item">
+        <h4>Pet, vehicle and parking rules</h4>
+        <p>Breed, weight and number limits, registration requirements, guest parking, commercial vehicle restrictions.</p>
+      </div>
+      <div class="check-item">
+        <h4>Association contact information</h4>
+        <p>The management company name, your account or unit number, and a direct contact.</p>
+      </div>
+      <div class="check-item">
+        <h4>Governing documents</h4>
+        <p>Declaration, bylaws, rules and regulations, and any recent amendments &mdash; the current versions, not the ones from closing.</p>
+      </div>
+      <div class="check-item">
+        <h4>Your Management Agreement obligation</h4>
+        <p>Providing this information is already a requirement under the Management Agreement you signed. This page is how we make it concrete.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>What happens when this information is missing</h2>
+    <p>This is not hypothetical. Here is the sequence, and it is the reason this page exists:</p>
+
+    <div class="seq">
+      <div class="seq-step">
+        <p class="t">We market the property and place a well-qualified resident.</p>
+        <p>Everything appears to go well. The lease is signed, the resident moves in, rent begins.</p>
+      </div>
+      <div class="seq-step">
+        <p class="t">The association discovers the tenancy.</p>
+        <p>They inform us that an association application was required and was never submitted, and that the resident is occupying the property in violation of the governing documents.</p>
+      </div>
+      <div class="seq-step bad">
+        <p class="t">The resident is now required to do something they never agreed to.</p>
+        <p>They signed a lease that said nothing about an association application, approval or fee. Some cooperate. Some refuse outright, and there is very little leverage to compel them.</p>
+      </div>
+      <div class="seq-step bad">
+        <p class="t">Fines, legal action, and a compromised tenancy.</p>
+        <p>The association begins assessing fines against the property and may pursue legal action or a lien. The lease itself may be jeopardized. The costs and the exposure land on the owner.</p>
+      </div>
+    </div>
+
+    <p>Every step of that sequence traces back to one missing document at the beginning. It is entirely preventable, and the prevention takes an afternoon.</p>
+  </section>
+
+  <section>
+    <h2>If your HOA information is incomplete</h2>
+    <p>We understand the pressure to get to market. Vacancy is expensive and waiting on an association can be maddening. You may direct us to proceed while HOA information is still incomplete or unconfirmed, and the acknowledgment below gives you that option.</p>
+
+    <p>We want to be straightforward with you about what that authorization does and does not do. It documents that the decision was informed and that you directed it. <strong>It cannot override your association's rules, and it does not eliminate the association's ability to act against you or the property.</strong> No document we sign between us binds the association.</p>
+
+    <div class="teal-box">
+      <h3>What we are relying on</h3>
+      <p>We have no independent access to your association's requirements and no way to confirm that a requirement does not exist. When you tell us your association requires no approval before occupancy &mdash; or you tell us what the process is &mdash; <strong>we proceed on your word.</strong></p>
+      <p>Your authorization allows us to market the property, execute a lease and permit your resident to move in, based on what you have told us. If an association requirement later comes to light that has not been met, we will tell you immediately and help you work through it. We may pause marketing, leasing or move-in while that happens. The requirement and its consequences remain yours.</p>
+    </div>
+
+    <p>This is why the questions on the form matter more than the documents. If you are not certain whether your association requires its own application and approval before a resident moves in, <strong>say you are not certain.</strong> "I don't know" is a useful answer and it costs you nothing. A confident "no" that turns out to be wrong is what creates the problem we are trying to avoid.</p>
+  </section>
+
+  <div class="form-section">
+    <h2>Complete your acknowledgment</h2>
+    <p>Two or three minutes. You will confirm what you've provided, choose whether to proceed under the conditions above, and sign electronically. <strong>Marketing begins once this is submitted and your documents are received.</strong></p>
+
+    <div class="form-wrap">
+      <!-- Jotform: HOA Information Acknowledgment & Authorization (262364276650056) -->
+      <iframe
+        id="JotFormIFrame-262364276650056"
+        title="HOA Information Acknowledgment and Authorization"
+        onload="window.parent.scrollTo(0,0)"
+        allow="geolocation; microphone; camera; fullscreen"
+        src="https://form.jotform.com/262364276650056"
+        frameborder="0"
+        style="min-width:100%;max-width:100%;height:900px;border:none;"
+        scrolling="no">
+      </iframe>
+    </div>
+    <script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+    <script>
+      window.jotformEmbedHandler &&
+      window.jotformEmbedHandler("iframe[id='JotFormIFrame-262364276650056']", "https://form.jotform.com/");
+    </script>
+  </div>
+
+  <footer>
+    <p class="tag">Curating Lake Nona's Finest Rental Portfolio</p>
+    <p class="co">Verandah Properties, LLC &middot; 407-415-5478</p>
+    <p class="disc">This page explains Verandah Properties' onboarding requirements and does not constitute legal advice. Association governing documents control, and owners should review them directly. Nothing in this page or the accompanying acknowledgment alters the terms of your Management Agreement except as expressly stated there.</p>
+  </footer>
+</div>
+</body>
+</html>
